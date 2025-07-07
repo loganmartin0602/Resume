@@ -1,8 +1,30 @@
 \section{Projects}
     \resumeSubHeadingListStart
 
+
+      % \resumeProjectHeading
+      %   {\textbf{Chikorita Camera Filter FPGA}}{Aug 2025 -- Present}
+      %   \resumeItemListStart
+      %     \resumeItem{Something about working alone to create a fully integrated sensor suite utilizing an fpga so that camera data can be inputted and then filtered out, replacing the use of any software kalman filters and the like.}
+      %     \resumeItem{Something about its relative performance compared to the software implementation, even if its slower, as well as listing how it was integrated specifically into the vision software stack that is developed.}
+      %   \resumeItemListEnd
+
       \resumeProjectHeading
-        {\textbf{Anqa RISC-V Processor}}{Feb 2025 -- Present}
+        {\textbf{Project Kestrel -- Fully Autonomous Drone}}{June 2025 -- Present}
+        \resumeItemListStart
+          \resumeItem{Engineering a complete firmware and driver stack within a 5-person team, leveraging ROS2, OpenCV, and MAVROS to successfully integrate a novel AI object detection model, enabling real-time, vision-based autonomous system navigation.}
+          \resumeItem{Designing and implenting a custom flight controller, establishing a robust hardware/software interface between a PX4 platform and ArduPilot flight stack using the ROS2 Jazzy communication backbone for real-time data processing.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Apophis-64G RISC-V SoC -- 2025 AMD Hardware Competition}}{Apr 2025 -- Present}
+        \resumeItemListStart
+          \resumeItem{Collaborating within a 5-member team to design and implement a complete System-on-Chip (SoC), featuring a custom 64-bit RISC-V CPU and an integrated GPU, with the goal functionality of booting Linux on a Red Pitaya board.}
+          \resumeItem{Engaged in the end-to-end development of a custom multi-core GPU, contributing to high-level architectural strategy, defining shader file formats, and executing the functional verification of the SystemVerilog/Verilog implementation.}
+        \resumeItemListEnd
+      
+      \resumeProjectHeading
+        {\textbf{Anqa 32-bit RISC-V Processor}}{Feb 2025 -- Present}
         \resumeItemListStart
           \resumeItem{Designed a 32-bit RISC-V CPU core, implementing key components like a parameterized adder (half/full/multi-bit) and instruction decoding logic for the RV32I base instruction set (arithmetic, logical, load/store, branch).}
           \resumeItem{Developed a Verilog implementation plan using Vivado, detailing the ALU, register file, single-cycle datapath design, and instruction pipeline stages, with comprehensive documentation for future development.}
@@ -15,14 +37,14 @@
           \resumeItem{Architected the system to effectively support dynamic loading of plugins, enabling flexible extension of functionality with minimal modification to the application’s core components and overall structure.}
         \resumeItemListEnd
 
-      \resumeProjectHeading
-        {\textbf{CyndaQuil Compiler/Language}}{Sept 2024 -- Jan 2025}
-        \resumeItemListStart
-          \resumeItem{Designed and implemented 'CyndaQuilLanguage', a custom programming language, developing its compiler in C++ and C with Makefile and CMake, showcasing expertise in language design, parsing, and code generation for efficient execution.}
-          \resumeItem{Engineered low-level system components and optimized performance, integrating Assembly and C to enhance hardware-software interfacing, ensuring minimal latency and efficient computation for embedded systems.}
-          %\resumeItem{Automated the compilation and linking process using NASM and GNU ld to generate executable binaries. Streamlined the pipeline to support structured programming, efficient binary generation, and improved execution performance.}
-          %\resumeItem{Developed structured project documentation using TeX, creating clear technical manuals to support compiler usage, language syntax, and system architecture for maintainability.}
-        \resumeItemListEnd
+      % \resumeProjectHeading
+      %   {\textbf{CyndaQuil Compiler/Language}}{Sep 2024 -- Jan 2025}
+      %   \resumeItemListStart
+      %     \resumeItem{Designed and implemented 'CyndaQuilLanguage', a custom programming language, developing its compiler in C++ and C with Makefile and CMake, showcasing expertise in language design, parsing, and code generation for efficient execution.}
+      %     \resumeItem{Engineered low-level system components and optimized performance, integrating Assembly and C to enhance hardware-software interfacing, ensuring minimal latency and efficient computation for embedded systems.}
+      %     %\resumeItem{Automated the compilation and linking process using NASM and GNU ld to generate executable binaries. Streamlined the pipeline to support structured programming, efficient binary generation, and improved execution performance.}
+      %     %\resumeItem{Developed structured project documentation using TeX, creating clear technical manuals to support compiler usage, language syntax, and system architecture for maintainability.}
+      %   \resumeItemListEnd
 
       % \resumeProjectHeading
       %     {\textbf{Screaming Banshee Box of Doom}}{Feb 2024 -- Apr 2024}
